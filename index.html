@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Raconet de Ca Deu | Restaurante en el castillo de Peñíscola</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO básico -->
+  <meta name="description"
+    content="Raconet de Ca Deu, restaurante de cocina tradicional española dentro del castillo de Peñíscola. Arroces melosos, tapas clásicas y un ambiente íntimo y romántico." />
+  <link rel="canonical" href="https://www.tu-dominio.com/" />
+
+  <!-- Open Graph (para compartir en redes) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Raconet de Ca Deu | Restaurante en el castillo de Peñíscola" />
+  <meta property="og:description"
+    content="Cocina tradicional española, arroces, tapas y vinos seleccionados en un rincón único dentro del castillo de Peñíscola." />
+  <meta property="og:image" content="https://www.tu-dominio.com/img/banner_principal_rcn.png" />
+  <meta property="og:url" content="https://www.tu-dominio.com/" />
+
+  <!-- Tipografías: CINZEL (títulos) + ARVO (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" href="img/Fav_icon_RCN-01.png" type="image/png" />
+  <link rel="stylesheet" href="estilos.css" />
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+  <img id="lightbox-img" src="" alt="Imagen ampliada">
+  </div>
+
+</head>
+
+<body>
+  <div class="pagina-completa">
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado-principal">
+      <div class="encabezado-contenido">
+        <div class="logo">
+          <a href="#inicio">Raconet de Ca Deu</a>
+        </div>
+
+        <nav class="navegacion-principal" id="navegacion">
+          <a href="#inicio" class="enlace-navegacion">Inicio</a>
+          <a href="#sobre-nosotros" class="enlace-navegacion">El Raconet</a>
+          <a href="#carta" class="enlace-navegacion">Carta</a>
+          <a href="#galeria" class="enlace-navegacion">Galería</a>
+          <a href="#redes" class="enlace-navegacion">Redes</a>
+          <a href="#reservas" class="enlace-navegacion">Reservas</a>
+          <a href="#contacto" class="enlace-navegacion">Contacto</a>
+        </nav>
+
+        <button class="boton-menu-movil" id="botonMenuMovil" aria-label="Abrir menú">☰</button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main id="inicio">
+      <section class="seccion-hero">
+        <div class="hero-contenido hero-contenido-centro">
+
+          <!-- Logo -->
+          <img src="img/Logo_Raconet_VIDEO-10.png" alt="Logo Raconet de Ca Deu" class="hero-logo-central" loading="lazy">
+
+          <p class="hero-etiqueta">Restaurante en el castillo de Peñíscola</p>
+
+          <h1 class="hero-titulo">
+            Cocina tradicional española<br> en un rincón único
+          </h1>
+
+          <p class="hero-texto hero-texto-centro">
+            Arroces melosos, tapas clásicas y vinos seleccionados, en un espacio íntimo dentro de las murallas del castillo.
+          </p>
+
+          <div class="hero-botones hero-botones-centro">
+            <a href="#reservas" class="boton-principal">Reservar mesa</a>
+            <a href="Carta/Carta raconet.pdf" class="boton-secundario" download>Descargar menú (PDF)</a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SOBRE NOSOTROS -->
+      <section id="sobre-nosotros" class="seccion-sobre animacion-scroll">
+        <div class="seccion-contenedor">
+          <div class="bloque-texto">
+            <h2 class="titulo-seccion">El Raconet de Ca Deu</h2>
+            <p class="texto-resaltado">
+              Un restaurante dentro del castillo con más de 20 años de tradición, donde la cocina mediterránea se vive
+              con calma y respeto por el producto.
+            </p>
+            <p>
+              Arroces melosos, tapas clásicas, pescados de lonja y un ambiente acogedor para disfrutar en pareja, en
+              familia o con amigos.
+            </p>
+          </div>
+
+          <div class="bloque-datos">
+            <div class="tarjeta-dato">
+              <h3>Ubicación</h3>
+              <p>C. San Roque, 13, 12598 Peniscola, Castellón</p>
+            </div>
+
+            <div class="tarjeta-dato">
+              <h3>Cocina</h3>
+              <p>Tradicional · Arroces · Tapas</p>
+            </div>
+
+            <div class="tarjeta-dato">
+              <h3>Ambiente</h3>
+              <p>Familiar • Romantico • Corporativo </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CARTA -->
+      <section id="carta" class="seccion-carta animacion-scroll">
+        <div class="seccion-contenedor">
+          <h2 class="titulo-seccion">Nuestra carta</h2>
+          <p class="texto-resaltado">Una selección de platos destacados recomendados por la casa.</p>
+
+          <div class="zona-descarga-menu">
+            <a href="docs/menu-raconet.pdf" class="boton-secundario boton-pequeno" download>
+              Descargar carta completa (PDF)
+            </a>
+          </div>
+
+          <div class="carta-columnas">
+
+            <div class="bloque-carta">
+              <h3 class="subtitulo-carta">Entrantes</h3>
+              <ul class="lista-platos">
+                <li class="plato">
+                  <div class="plato-info">
+                    <span class="plato-nombre">Gambas al ajillo</span>
+                    <span class="plato-descripcion">Gambas salteadas con ajo, aceite de oliva y guindilla.</span>
+                  </div>
+                  <span class="plato-precio">12€</span>
+                </li>
+
+                <li class="plato">
+                  <div class="plato-info">
+                    <span class="plato-nombre">Pan con alioli casero</span>
+                    <span class="plato-descripcion">Pan tostado con alioli suave elaborado al momento.</span>
+                  </div>
+                  <span class="plato-precio">4€</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="bloque-carta">
+              <h3 class="subtitulo-carta">Principales</h3>
+              <ul class="lista-platos">
+
+                <li class="plato">
+                  <div class="plato-info">
+                    <span class="plato-nombre">Arroz meloso con chipirones</span>
+                    <span class="plato-descripcion">Chipirones tiernos, caldo tradicional y punto de cocción perfecto.</span>
+                  </div>
+                  <span class="plato-precio">18€</span>
+                </li>
+
+                <li class="plato">
+                  <div class="plato-info">
+                    <span class="plato-nombre">Pescado de lonja</span>
+                    <span class="plato-descripcion">Según mercado, a la plancha o al horno, con guarnición de temporada.</span>
+                  </div>
+                  <span class="plato-precio">S/M</span>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="bloque-carta">
+              <h3 class="subtitulo-carta">Postres</h3>
+              <ul class="lista-platos">
+
+                <li class="plato">
+                  <div class="plato-info">
+                    <span class="plato-nombre">Tarta de queso casera</span>
+                    <span class="plato-descripcion">Cremosa, horneada lentamente, con base crujiente.</span>
+                  </div>
+                  <span class="plato-precio">7€</span>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- GALERÍA AMPLIADA -->
+      <section id="galeria" class="seccion-galeria animacion-scroll">
+        <div class="seccion-contenedor">
+          <h2 class="titulo-seccion">GALERIA</h2>
+          <p class="texto-resaltado">Algunos de nuestros platos y rincones del Raconet.</p>
+
+          <div class="galeria-grid">
+            <!-- 9 fotos - cambia las rutas por las tuyas -->
+            <figure class="galeria-item">
+              <img src="/Website_Raconet/img/Arros_meloso.jpg" alt="Arroz meloso con chipirones" loading="lazy">
+            </figure>
+
+            <figure class="galeria-item">
+              <img src="/Website_Raconet/img/gambas_al_ajillo.jpg" alt="Gambas al ajillo" loading="lazy">
+            </figure>
+
+            <figure class="galeria-item">
+              <img src="/Website_Raconet/img/patatas_bravas.jpg" alt="Tapa tradicional" loading="lazy">
+            </figure>
+
+            <figure class="galeria-item"> 
+              <img src="/Website_Raconet/img/pan_alioli.jpg" alt="Pan con alioli" loading="lazy">
+            </figure>
+
+            <figure class="galeria-item">
+              <img src="img/interior_rcn_1.jpg" alt="Detalle de mesa" loading="lazy">
+            </figure>
+
+            <figure class="galeria-item">
+              <img src="/Website_Raconet/img/interior_raconet 2.jpg" alt="Vista del castillo" loading="lazy">
+            </figure>
+
+            <figure class="galeria-item">
+              <img src="/Website_Raconet/img/paella_marinera.jpg" alt="Postre casero" loading="lazy">
+            </figure>
+
+            <figure class="galeria-item">
+              <img src="/Website_Raconet/img/merluza_limon.jpg" alt="Interior iluminado" loading="lazy">
+            </figure>
+
+            <figure class="galeria-item">
+              <img src="/Website_Raconet/img/restaurante_rc.jpg" alt="Copa de vino" loading="lazy">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN REDES / FEED SIMULADO -->
+      <section id="redes" class="seccion-redes animacion-scroll">
+        <div class="seccion-contenedor">
+          <h2 class="titulo-seccion">Síguenos en redes</h2>
+          <p class="texto-resaltado">
+            Descubre el día a día del Raconet, nuevos platos y momentos especiales en nuestras redes sociales.
+          </p>
+
+          <div class="redes-grid">
+            <article class="tarjeta-red">
+              <header class="cabecera-red">
+                <div class="icono-red-social icono-instagram" aria-hidden="true"></div>
+                <div>
+                  <h3>Instagram</h3>
+                  <a href="https://www.instagram.com/raconet_de_ca_deu/" target="_blank" rel="noopener">@tuusuario</a>
+                </div>
+              </header>
+              <div class="mini-feed">
+                <div class="mini-post mini-post-1"></div>
+                <div class="mini-post mini-post-2"></div>
+                <div class="mini-post mini-post-3"></div>
+              </div>
+              <a href="https://www.instagram.com/raconet_de_ca_deu/" target="_blank" rel="noopener" class="enlace-ver-mas">
+                Ver en Instagram
+              </a>
+            </article>
+
+            <article class="tarjeta-red">
+              <header class="cabecera-red">
+                <div class="icono-red-social icono-facebook" aria-hidden="true"></div>
+                <div>
+                  <h3>Tik Tok</h3>
+                  <a href="https://www.tiktok.com/@elraconetdecadeu" target="_blank" rel="noopener">@elraconetdecadeu</a>
+                </div>
+              </header>
+              <!--La sección de facebook es la de TikTok-->
+              <div class="mini-feed">
+                <div class="mini-post mini-post-4"></div>
+                <div class="mini-post mini-post-5"></div>
+                <div class="mini-post mini-post-6"></div>
+              </div>
+              <a href="https://www.tiktok.com/@elraconetdecadeuo" target="_blank" rel="noopener" class="enlace-ver-mas">
+                Ver en Tik Tok
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESERVAS -->
+      <section id="reservas" class="seccion-reservas animacion-scroll">
+        <div class="seccion-contenedor reservas-distribucion">
+
+          <div class="bloque-texto">
+            <h2 class="titulo-seccion">Reservas</h2>
+            <p class="texto-resaltado">Reserva tu mesa para comidas, cenas y ocasiones especiales.</p>
+          </div>
+
+          <!-- FORMULARIO COMPLETO -->
+          <div class="bloque-formulario">
+            <form class="formulario-reserva" id="formReserva">
+
+              <div class="fila-formulario">
+                <div class="campo-formulario">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+                </div>
+
+                <div class="campo-formulario">
+                  <label for="telefono">Teléfono</label>
+                  <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required />
+                </div>
+              </div>
+
+              <div class="fila-formulario">
+                <div class="campo-formulario">
+                  <label for="correo">Correo electrónico</label>
+                  <input type="email" id="correo" name="correo" placeholder="tuemail@example.com" required />
+                </div>
+
+                <div class="campo-formulario">
+                  <label for="personas">Personas</label>
+                  <input type="number" id="personas" name="personas" min="1" max="20" value="2" />
+                </div>
+              </div>
+
+              <div class="fila-formulario">
+                <div class="campo-formulario">
+                  <label for="fecha">Fecha</label>
+                  <input type="date" id="fecha" name="fecha" required />
+                </div>
+
+                <div class="campo-formulario">
+                  <label for="hora">Hora</label>
+                  <input type="time" id="hora" name="hora" required />
+                </div>
+              </div>
+
+              <div class="fila-formulario">
+                <div class="campo-formulario" style="grid-column: 1 / -1;">
+                  <label for="mensaje">Comentarios (opcional)</label>
+                  <textarea id="mensaje" name="mensaje" rows="3"
+                    placeholder="Alergias, ocasión especial..."></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="boton-principal boton-bloque">Enviar reserva</button>
+              <p class="nota-formulario">
+                El formulario abrirá tu correo con la solicitud de reserva preparada para enviarla.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- PIE DE PÁGINA -->
+      <footer id="contacto" class="pie-pagina animacion-scroll">
+        <div class="seccion-contenedor pie-contenido">
+
+          <div class="columna-pie">
+            <h3>Raconet de Ca Deu</h3>
+            <p>C. San Roque, 13<br>12598 Peñíscola, Castellón, España</p>
+            <p>Síguenos:</p>
+            <div class="iconos-footer">
+              <a href="https://www.instagram.com/raconet_de_ca_deu/" target="_blank" rel="noopener" aria-label="Instagram">
+                <span class="icono-red-social icono-instagram"></span>
+              </a>
+              <a href="https://www.tiktok.com/@elraconetdecadeu" target="_blank" rel="noopener" aria-label="TikTok">
+                <span class="icono-red-social icono-facebook"></span>
+              </a>
+            </div>
+          </div>
+
+          <div class="columna-pie">
+            <h4>Contacto</h4>
+            <p>Tel: <a href="tel:+34964489401">+34 964 48 94 01</a></p>
+            <p>Email:
+              <a href="mailto:reservas@raconetdecadeu.com">reservas@raconetdecadeu.com</a>
+            </p>
+          </div>
+
+          <div class="columna-pie">
+            <h4>Horario</h4>
+            <p>Martes a domingo</p>
+            <p>Comidas · 13:00 - 16:00</p>
+            <p>Cenas · 20:00 - 23:30</p>
+          </div>
+
+        </div>
+
+        <div class="pie-legal">
+          © <span id="anioActual"></span> Raconet de Ca Deu
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
