@@ -509,13 +509,40 @@ h4,
 }
 
 /* Puedes cambiar estos fondos por miniaturas reales si quieres */
-.mini-post-1,
-.mini-post-2,
-.mini-post-3,
-.mini-post-4,
-.mini-post-5,
+.mini-post-1 {
+  background-image: url("img/post_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.mini-post-2 {
+  background-image: url("img/Post_2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.mini-post-3 {
+  background-image: url("img/Post_3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.mini-post-4 {
+  background-image: url("img/Post_3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.mini-post-5 {
+  background-image: url("img/Post_4.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .mini-post-6 {
-  background: linear-gradient(135deg, #303238, #181920);
+  background-image: url("img/Post_5.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .enlace-ver-mas {
